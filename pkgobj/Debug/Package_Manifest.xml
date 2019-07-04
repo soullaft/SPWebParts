@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="fdb72290-5fba-416d-9a06-f788a6ae3ccc" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SharePointProject2.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SharePointProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=84507d52e8889c96" Namespace="SharePointProject2.TodoWorker" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\SharePointProject2\TodoWorker\TodoWorkerUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SharePointProject2_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

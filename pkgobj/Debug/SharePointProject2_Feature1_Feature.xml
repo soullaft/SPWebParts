@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SharePointProject2 Feature1" Id="83a17fac-5ce6-4669-84db-b4500fcd7915" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="TodoWorker\Elements.xml" />
+    <ElementFile Location="TodoWorker\TodoWorker.webpart" />
+  </ElementManifests>
+</Feature>
